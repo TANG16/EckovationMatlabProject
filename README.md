@@ -1,5 +1,5 @@
-# EckovationMatlabProject
-This is an internship project for Matlab Eckovation course to build a Homogenous Image Dataset and performing Facial Identification in Matlab
+# [Eckovation](https://www.eckovation.com/) Matlab Final Internship Project
+This is an internship project for Matlab course created by Eckovation to build a Homogenous Image Dataset and performing Facial Identification in Matlab
 Problem: Create a UI that browses for certain faces and obtains the image in real time to identify the faces in the newly fed image. Use Matlab App designer to create the UI.
 
 Step 1: Create your custom dataset using Matlab. Download the existing image dataset folder as a zip file from this link and extract it to a folder face_recognition. After completing the download, your face_recognition folder should look like this:
