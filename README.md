@@ -1,4 +1,4 @@
-# [Eckovation](https://www.eckovation.com/) Matlab Final Internship Project
+# [Eckovation Matlab Final Internship Project](https://www.eckovation.com/) 
 This is an internship project for Matlab course created by Eckovation to build a Homogenous Image Dataset and performing Facial Identification in Matlab
 Problem: Create a UI that browses for certain faces and obtains the image in real time to identify the faces in the newly fed image. Use Matlab App designer to create the UI.
 
