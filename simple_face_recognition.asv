@@ -1,0 +1,13 @@
+i=imread('1.png');
+[hog_2x2, vis2x2] = extractHOGFeatures(i,'CellSize',[5 5]);
+[hog_2x2, vis2x3] = extractHOGFeatures(i,'BlockSize',[5 5]);
+[hog_2x2, vis2x4] = extractHOGFeatures(i,'BlockOverlap',[5 5]);
+[hog_2x2, vis2x5] = extractHOGFeatures(i,'NumBins',[5 5]);
+[hog_2x2, vis2x6] = extractHOGFeatures(i,'UseSignedOrientation',[5 5]);
+
+subplot(231),plot(vis2x2),subplot(232),plot(vis2x3),subplot(232),plot(vis2x4);
+subplot(232),plot(vis2x4),subplot(236),plot(vis2x3),subplot(232),plot(vis2x3);
+i2=imread('3.png');
+[hog_2x2, vis2x2x] = extractHOGFeatures(i2,'CellSize',[5 5]);
+figure;
+plot(vis2x2x);
